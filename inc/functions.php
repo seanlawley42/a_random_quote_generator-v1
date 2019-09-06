@@ -1,10 +1,10 @@
-// PHP - Random Quote Generator
 <?php
+// PHP - Random Quote Generator
 //Change the background color to create a dazzling, psychedelic showstopper of wonderment
 function backgrounderz(){
-    $uno = rand(0,255);
-    $dos = rand(0,255);
-    $tres = rand(0,255);
+    $uno = rand(0,215);
+    $dos = rand(0,215);
+    $tres = rand(0,215);
     $randomonium = "($uno, $dos, $tres)";
     echo $randomonium;
 };
@@ -13,76 +13,88 @@ function backgrounderz(){
 // Make the quotes interesting for yourself and whoever is reviewing the project
 $quotes= [ 
 $superQuoteArray1 = [
-    "Source" => "All Might", 
-    "Quote" => "If you feel yourself hitting up against your limit, remember for what cause you clench your fists... Remember why you started down this path, and let that memory carry you beyond your limit.", 
-    "Originally From" => "<i>My Hero Academia</i>",
-    "Year" => 2018,
+    "source" => "All Might", 
+    "quote" => "If you feel yourself hitting up against your limit, remember for what cause you clench your fists... Remember why you started down this path, and let that memory carry you beyond your limit.", 
+    "citation" => "<i>My Hero Academia</i>",
+    "year" => 2018,
+    "medium" => "Anime",
 ],
 $superQuoteArray2 = [
-    "Source" => "Darth Vader", 
-    "Quote" => "Be careful not to choke on your aspirations.", 
-    "Originally From" => "<i>Star Wars: Rogue One</i>",
-    "Year" => 2016,
+    "source" => "Darth Vader", 
+    "quote" => "Be careful not to choke on your aspirations.", 
+    "citation" => "<i>Star Wars: Rogue One</i>",
+    "year" => 2016,
+    "medium" => "Film",
 ],
 $superQuoteArray3 = [
-    "Source" => "Master Yoda", 
-    "Quote" => "Do. Or do not. There is no try.", 
-    "Originally From" => "<i>Star Wars: The Empire Strikes Back</i>",
-    "Year" => 1980,
+    "source" => "Master Yoda", 
+    "quote" => "Do. Or do not. There is no try.", 
+    "citation" => "<i>Star Wars: The Empire Strikes Back</i>",
+    "year" => 1980,
+    "medium" => "Film",
 ],
 $superQuoteArray4 = [
-    "Source" => "Niv-Mizzet", 
-    "Quote" => "Don't just have an idea — have all of them.", 
-    "Originally From" => "<i>Magic the Gathering: Gatecrash</i>",
-    "Year" => 2013,
+    "source" => "Niv-Mizzet", 
+    "quote" => "Don't just have an idea — have all of them.", 
+    "citation" => "<i>Magic the Gathering: Gatecrash</i>",
+    "year" => 2013,
+    "medium" => "Game",
 ],
 $superQuoteArray5 = [
-    "Source" => "Batman", 
-    "Quote" => "I have one power. I never give up.", 
-    "Originally From" => "<i>Justice League: the Animated Series</i>",
-    "Year" => 2003,
+    "source" => "Batman", 
+    "quote" => "I have one power. I never give up.", 
+    "citation" => "<i>Justice League: the Animated Series</i>",
+    "year" => 2003,
+    "medium" => "Cartoon",
 ],
 $superQuoteArray6 = [
-    "Source" => "Iron Man", 
-    "Quote" => "What am I even tripping for? Everything's gonna workout exactly the way it's supposed to.", 
-    "Originally From" => "<i>Avengers: Endgame</i>",
-    "Year" => 2019,
+    "source" => "Iron Man", 
+    "quote" => "What am I even tripping for? Everything's gonna workout exactly the way it's supposed to.", 
+    "citation" => "<i>Avengers: Endgame</i>",
+    "year" => 2019,
+    "medium" => "Film",
 ],
 $superQuoteArray7 = [
-    "Source" => "The Flash", 
-    "Quote" => "When you stop trying to force the solution, it'll happen on its own.", 
-    "Originally From" => "<i>Supergirl: World's Finest</i>",
-    "Year" => 2016,
+    "source" => "The Flash", 
+    "quote" => "When you stop trying to force the solution, it'll happen on its own.", 
+    "citation" => "<i>Supergirl: World's Finest</i>",
+    "year" => 2016,
+    "medium" => "Television",
 ],
 $superQuoteArray8 = [
-    "Source" => "Peter B. Parker", 
-    "Quote" => "Everyone knows that the best way to learn is under intense, life-threatening pressure!", 
-    "Originally From" => "<i>Spider-Man: Into the Spider-Verse</i>",
-    "Year" => 2018,
+    "source" => "Peter B. Parker", 
+    "quote" => "Everyone knows that the best way to learn is under intense, life-threatening pressure!", 
+    "citation" => "<i>Spider-Man: Into the Spider-Verse</i>",
+    "year" => 2018,
+    "medium" => "Film",
 ],
 $superQuoteArray9 = [
-    "Source" => "Stan Lee", 
-    "Quote" => "I don’t have inspiration. I only have ideas. Ideas and deadlines.", 
-    "Originally From" => "<i>Interview with the Washington Post</i>",
-    "Year" => 2011,
+    "source" => "Stan Lee", 
+    "quote" => "I don’t have inspiration. I only have ideas. Ideas and deadlines.", 
+    "citation" => "<i>Interview with the Washington Post</i>",
+    "year" => 2011,
+    "medium" => "Newspaper",
 ],
 $superQuoteArray10 = [
-    "Source" => "Bob Ross", 
-    "Quote" => "Talent is a pursued interest. In other words, anything that you're willing to practice, you can do.", 
-    "Originally From" => "<i>The Joy of Painting</i>",
-    "Year" => 2019,
+    "source" => "Bob Ross", 
+    "quote" => "Talent is a pursued interest. In other words, anything that you're willing to practice, you can do.", 
+    "citation" => "<i>The Joy of Painting</i>",
+    "year" => 2019,
+    "medium" => "Television",
 ],
 $superQuoteArray11 = [
-    "Source" => "Mister Rogers", 
-    "Quote" => "There's no person in the whole world like you; and I like you just the way you are.", 
-    "Originally From" => "<i>US Senate Testimony</i>",
-    "Year" => 1969,
+    "source" => "Mister Rogers", 
+    "quote" => "There's no person in the whole world like you; and I like you just the way you are.", 
+    "citation" => "<i>US Senate Testimony</i>",
+    "year" => 1969,
+    "medium" => "Public Record",
 ],
 $superQuoteArray12 = [
-    "Source" => "Vincent Van Gogh", 
-    "Quote" => "Try to see what I see. We're so lucky we're still alive to see this beautiful world. ", 
-    "Originally From" => "<i>Doctor Who</i>",
-    "Year" => 2010,
+    "source" => "Vincent Van Gogh", 
+    "quote" => "Try to see what I see. We're so lucky we're still alive to see this beautiful world. ", 
+    "citation" => "<i>Doctor Who</i>",
+    "year" => 2010,
+    "medium" => "Television",
 ],
 ];
 
@@ -95,13 +107,16 @@ function printQuote(){
     global $quotes;
     $youreTheOneThatIWant = getRandomQuote($quotes);
     $theVeryBestQuote = "";
-    $theVeryBestQuote .= '<p class= "quote">' . $youreTheOneThatIWant["Quote"] . "</p>";
-    $theVeryBestQuote .= '<p class= "source">' . $youreTheOneThatIWant["Source"] . "</p>";
-        if ($theVeryBestQuote["Originally From"]){
-            $theVeryBestQuote .= '<span class= "citation">' . $youreTheOneThatIWant["Originally From"] . '</span>';
+    $theVeryBestQuote .= '<p class= "quote">' . $youreTheOneThatIWant["quote"] . "</p>";
+    $theVeryBestQuote .= '<p class= "source">' . $youreTheOneThatIWant["source"];
+        if ($theVeryBestQuote["citation"]){
+            $theVeryBestQuote .= '<span class= "citation">' . $youreTheOneThatIWant["citation"] . '</span>';
         };
-        if ($theVeryBestQuote["Year"]){
-            $theVeryBestQuote .= '<span class= "year">' . $youreTheOneThatIWant["Year"] . '</span>';
+        if ($theVeryBestQuote["year"]){
+            $theVeryBestQuote .= '<span class= "year">' . $youreTheOneThatIWant["year"] . '</span>';
+        };
+        if ($theVeryBestQuote["medium"]){
+            $theVeryBestQuote .= '<span class= "medium">' . $youreTheOneThatIWant["medium"] . '</span>';
         };
         $theVeryBestQuote .= "</p>";
 echo $theVeryBestQuote;

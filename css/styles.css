@@ -58,6 +58,11 @@ body {
   font-style: italic;
 }
 
+.medium:before {
+  content: ", ";
+  font-style: normal;
+}
+
 .citation:before {
   content: ", ";
   font-style: normal;
